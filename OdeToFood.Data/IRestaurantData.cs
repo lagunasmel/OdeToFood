@@ -22,8 +22,8 @@ namespace OdeToFood.Data
             restaurants = new List<Restaurant>()
             {
                 new Restaurant { Id = 1, Name = "Scott's Pizza", Location = "Maryland", Cuisine = CuisineType.Italian },
-                new Restaurant { Id = 2, Name = "Lupe's Taqueria", Location = "Maryland", Cuisine = CuisineType.Mexican },
-                new Restaurant { Id = 3, Name = "Indian Cuisine", Location = "Maryland", Cuisine = CuisineType.Indian }
+                new Restaurant { Id = 2, Name = "Lupe's Taqueria", Location = "California", Cuisine = CuisineType.Mexican },
+                new Restaurant { Id = 3, Name = "Indian Cuisine", Location = "New Jersey", Cuisine = CuisineType.Indian }
             };
         }
         public Restaurant GetById(int id)
